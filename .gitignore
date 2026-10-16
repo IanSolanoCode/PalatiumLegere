@@ -1,0 +1,4 @@
+# See https://github.com/github/gitignore/blob/main/Node.gitignore
+node_modules/
+*.log
+.env

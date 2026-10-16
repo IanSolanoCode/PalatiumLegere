@@ -1,0 +1,19 @@
+# See https://github.com/github/gitignore/blob/main/Node.gitignore
+node_modules/
+*.log
+.env
+
+# Laravel specific
+/.idea
+/*.env
+/.env.backup
+.DS_Store
+
+# PHP
+composer.lock
+vendor/
+
+# Laravel
+/storage/*
+/bootstrap/cache/*
+/node_modules/*
