@@ -3,31 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Palatium Legere - Frontend</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            line-height: 1.6;
-        }
-        h1 {
-            color: #333;
-        }
-        .container {
-            background: #f4f4f4;
-            padding: 20px;
-            border-radius: 8px;
-            margin-top: 20px;
-        }
-    </style>
+    <title>Palatium Legere - Inicio</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <h1>Bienvenido a Palatium Legere</h1>
-    <div class="container">
-        <p>Este es el archivo HTML principal de la carpeta frontend.</p>
-        <p>Puedes agregar tu aplicación SPA o contenido aquí.</p>
-    </div>
+    <header>
+        <h1>🌿 Palatium Legere</h1>
+        <nav>
+            <a href="/">Inicio</a>
+            <a href="/about">Nosotros</a>
+            <a href="/services">Servicios</a>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="hero">
+            <h2>Bienvenido a tu proyecto Laravel</h2>
+            <p>Una base sólida y elegante para tu aplicación</p>
+            <a href="/services" class="btn">Explorar Servicios</a>
+        </section>
+
+        <section class="features">
+            <div class="reveal">
+                <h3>✨ Moderno</h3>
+                <p>Diseño limpio y responsive</p>
+            </div>
+            <div class="reveal">
+                <h3>⚡ Rápido</h3>
+                <p>Optimizado para mejor rendimiento</p>
+            </div>
+            <div class="reveal">
+                <h3>🔒 Seguro</h3>
+                <p>Autenticación con Sanctum</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Palatium Legere. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
